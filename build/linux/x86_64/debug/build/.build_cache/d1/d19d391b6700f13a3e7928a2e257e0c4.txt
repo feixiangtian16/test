@@ -1,0 +1,12 @@
+{
+    errdata = "\27[01m\27[K23_template_const/main.cpp:\27[m\27[K In member function ‘\27[01m\27[Kunsigned int Tensor<N, T>::data_index(const unsigned int*) const [with unsigned int N = 3; T = float]\27[m\27[K’:\
+\27[01m\27[K23_template_const/main.cpp:43:32:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Karray subscript 3 is above array bounds of ‘\27[01m\27[Kconst unsigned int [3]\27[m\27[K’ [\27[01;35m\27[K-Warray-bounds\27[m\27[K]\
+   43 |             multiplier *= \27[01;35m\27[Kshape[\27[m\27[KN]; // 更新乘数\
+      |                           \27[01;35m\27[K~~~~~^\27[m\27[K\
+\27[01m\27[K23_template_const/main.cpp:7:18:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[Kwhile referencing ‘\27[01m\27[KTensor<3, float>::shape\27[m\27[K’\
+    7 |     unsigned int \27[01;36m\27[Kshape\27[m\27[K[N];\
+      |                  \27[01;36m\27[K^~~~~\27[m\27[K\
+At global scope:\
+\27[01m\27[Kcc1plus:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[Kunrecognized command-line option ‘\27[01m\27[K-Wno-gnu-line-marker\27[m\27[K’ may have been intended to silence earlier diagnostics\
+"
+}

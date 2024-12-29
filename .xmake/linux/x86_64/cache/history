@@ -1,0 +1,8 @@
+{
+    cmdlines = {
+        "xmake run summary",
+        "xmake run summary",
+        "xmake run learn 23",
+        "xmake run summary"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    errdata = "In constructor ‘\27[01m\27[KTensor<N, T>::Tensor(const unsigned int*) [with unsigned int N = 4; T = int]\27[m\27[K’,\
+    inlined from ‘\27[01m\27[Kint main(int, char**)\27[m\27[K’ at \27[01m\27[K23_template_const/main.cpp:54:43\27[m\27[K:\
+\27[01m\27[K23_template_const/main.cpp:12:24:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[Ktensor.Tensor<4, int>::data\27[m\27[K’ is used uninitialized [\27[01;35m\27[K-Wuninitialized\27[m\27[K]\
+   12 |        std::fill(data, \27[01;35m\27[Kdata\27[m\27[K + size, T(0));\
+      |                        \27[01;35m\27[K^~~~\27[m\27[K\
+\27[01m\27[K23_template_const/main.cpp:\27[m\27[K In function ‘\27[01m\27[Kint main(int, char**)\27[m\27[K’:\
+\27[01m\27[K23_template_const/main.cpp:54:14:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[K‘\27[01m\27[Ktensor\27[m\27[K’ declared here\
+   54 |         auto \27[01;36m\27[Ktensor\27[m\27[K = Tensor<4, int>(shape);\
+      |              \27[01;36m\27[K^~~~~~\27[m\27[K\
+In constructor ‘\27[01m\27[KTensor<N, T>::Tensor(const unsigned int*) [with unsigned int N = 3; T = float]\27[m\27[K’,\
+    inlined from ‘\27[01m\27[Kint main(int, char**)\27[m\27[K’ at \27[01m\27[K23_template_const/main.cpp:68:45\27[m\27[K:\
+\27[01m\27[K23_template_const/main.cpp:12:24:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[Ktensor.Tensor<3, float>::data\27[m\27[K’ may be used uninitialized [\27[01;35m\27[K-Wmaybe-uninitialized\27[m\27[K]\
+   12 |        std::fill(data, \27[01;35m\27[Kdata\27[m\27[K + size, T(0));\
+      |                        \27[01;35m\27[K^~~~\27[m\27[K\
+\27[01m\27[K23_template_const/main.cpp:\27[m\27[K In function ‘\27[01m\27[Kint main(int, char**)\27[m\27[K’:\
+\27[01m\27[K23_template_const/main.cpp:68:14:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[K‘\27[01m\27[Ktensor\27[m\27[K’ declared here\
+   68 |         auto \27[01;36m\27[Ktensor\27[m\27[K = Tensor<3, float>(shape);\
+      |              \27[01;36m\27[K^~~~~~\27[m\27[K\
+At global scope:\
+\27[01m\27[Kcc1plus:\27[m\27[K \27[01;36m\27[Knote: \27[m\27[Kunrecognized command-line option ‘\27[01m\27[K-Wno-gnu-line-marker\27[m\27[K’ may have been intended to silence earlier diagnostics\
+"
+}
